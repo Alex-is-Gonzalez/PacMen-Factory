@@ -41,9 +41,8 @@ function Run() {
         newimg.style.position = 'absolute';
         newimg.src = 'PacMan1.png';
         newimg.width = 100;
-        //
-        // set position here 
-        //
+        newimg.style.left = position.x;
+        newimg.style.top = position.y;
 
         // add new Child image to game
         game.appendChild( newimg);
